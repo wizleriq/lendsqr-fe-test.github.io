@@ -1,0 +1,38 @@
+.widget{
+  background-color: white;
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  justify-content: space-between;
+  box-shadow: 6px 15px 10px -3px rgba(222,222,222,1);
+  -webkit-box-shadow: 6px 15px 10px -3px rgba(222,222,222,1);
+// -moz-box-shadow: -2px -7px 21px -11px rgba(0,0,0,1);
+
+// border-radius: 10px;
+height: 120px;
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 13px;
+
+  .name{
+    font-weight: bold;
+    font-size: 11px;
+    color: gray;
+  }
+
+  .nameone{
+    font-weight: bold;
+    font-size: 14px;
+    color: #533f9e;
+  }
+
+  
+}
+.logo{
+    font-size: 16px;
+    color: green;
+  }
+}
